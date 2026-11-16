@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="TU NOMBRE">
+    <meta name="description" content="Hoja de inscripción">
+    <meta name="keywords" content="inscripción, ciclos formativos">
+    <title>Hoja de inscripción</title>
+    <link rel="stylesheet" href="Inscripcion.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>HOJA DE INSCRIPCION</h1>
+        <h2>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Volver a formularios</a>
+        <br>
+        <a href="../index.html">Volver al inicio</a>
+    </nav>
+
+    <main>
+
+        <form>
+
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <p>
+                    Nombre:
+                    <input type="text" name="nombre">
+                </p>
+
+                <p>
+                    Apellidos:
+                    <input type="text" name="apellidos">
+                </p>
+
+                <p>
+                    DNI:
+                    <input type="text" name="dni">
+                </p>
+
+                <p>
+                    Localidad de Nacimiento:
+                    <input type="text" name="localidad">
+                </p>
+
+                <p>
+                    Provincia:
+                    <select name="provincia">
+                        <option>Huelva</option>
+                        <option>Sevilla</option>
+                        <option>Cordoba</option>
+                        <option>Cadiz</option>
+                        <option>Granada</option>
+                        <option>Jaen</option>
+                        <option>Malaga</option>
+                        <option>Almeria</option>
+                    </select>
+                </p>
+
+                <p>
+                    Fecha de Nacimiento:
+                    <input type="date" name="fecha">
+                </p>
+
+                <p>
+                    Direccion:
+                    <input type="text" name="direccion">
+                </p>
+
+                <p>
+                    Codigo Postal:
+                    <input type="text" name="codigo">
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Forma de Acceso</legend>
+
+                <input type="radio" name="acceso" value="directo">
+                Directo
+                <br><br>
+
+                Bachillerato LOGSE Modalidad:
+                <input type="text" name="bachillerato">
+                <br><br>
+
+                <input type="radio" name="acceso" value="experimental">
+                Experimental
+                <br><br>
+
+                <input type="radio" name="acceso" value="cou">
+                COU Opción
+                <input type="text" name="cou">
+                <br><br>
+
+                <input type="radio" name="acceso" value="fp2">
+                FP2
+                <br><br>
+
+                <input type="radio" name="acceso" value="otros">
+                Otros (especifique)
+                <input type="text" name="otros">
+                <br><br>
+
+                <input type="radio" name="acceso" value="libre">
+                Prueba Libre
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Documentos Adjuntados</legend>
+
+                <input type="checkbox" name="documentos" value="dni">
+                Fotocopia DNI
+
+                <input type="checkbox" name="documentos" value="certificado">
+                Certificado Académico
+
+                <br><br>
+
+                <input type="checkbox" name="documentos" value="otros">
+                Otros documentos (especifique)
+                <input type="text" name="otrosdocumentos">
+
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Enviar Solicitud">
+            <input type="reset" value="Limpiar datos">
+
+        </form>
+
+    </main>
+
+  <footer>
+        <p>
+            © 2026 Inscripción. Todos los derechos reservados.
+        </p>
+    </footer>
+</body>
+</html>
